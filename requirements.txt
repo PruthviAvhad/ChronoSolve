@@ -1,0 +1,23 @@
+# ChronoSolve -- backend dependencies
+# Python 3.11+ (developed and tested on 3.14.4)
+#
+# Everything here is open-source and free. There is no paid API, hosted
+# service, dataset or licence anywhere in the core engine.
+
+ortools==9.15.6755      # CP-SAT constraint solver (pulls numpy/pandas/protobuf)
+fastapi==0.141.1        # HTTP API
+uvicorn[standard]==0.52.4   # ASGI server
+openpyxl==3.1.5         # Excel import and export
+python-multipart        # file uploads for the import endpoint
+reportlab==5.0.1        # PDF export
+# Calendar (.ics) export is hand-rolled RFC 5545 -- no dependency needed.
+
+# Persistence. PostgreSQL in deployment (CHRONOSOLVE_DATABASE_URL); SQLite, which
+# needs no driver, for tests and zero-setup local runs.
+sqlalchemy==2.0.52      # ORM and query layer
+alembic==1.19.2         # schema migrations
+psycopg[binary]==3.3.5  # PostgreSQL driver
+
+# Development only.
+pytest==9.1.1           # regression suite
+httpx2                  # FastAPI TestClient transport

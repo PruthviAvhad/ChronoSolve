@@ -1,0 +1,61 @@
+# ==============================
+# Python
+# ==============================
+.venv/
+venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# Environment / Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Local Database / Runtime Data
+# ==============================
+data/chronosolve.db
+data/chronosolve.db-*
+data/repaired_timetable.json
+data/exports/
+
+# ==============================
+# Frontend
+# ==============================
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/coverage/
+
+# ==============================
+# IDE
+# ==============================
+.vscode/
+.idea/
+
+# ==============================
+# OS Files
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Logs
+# ==============================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==============================
+# Internal Project Notes
+# ==============================
+ChronoSolve_Master_Context_Competitive_Analysis*.md

@@ -1,0 +1,12 @@
+.venv/
+.git/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+tests/
+frontend/node_modules/
+frontend/dist/
+data/exports/
+data/repaired_timetable.json
+*.pdf

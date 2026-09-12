@@ -1,0 +1,2943 @@
+{
+  "schema_version": 1,
+  "label": "published-v1",
+  "saved_at": "2026-09-08T18:10:46Z",
+  "instance": {
+    "name": "Computer Engineering Department (synthetic)",
+    "calendar": {
+      "days": 5,
+      "periods": 8
+    },
+    "rooms": [
+      {
+        "id": "LH101",
+        "name": "Lecture Hall 101",
+        "capacity": 80,
+        "room_type": "LECTURE",
+        "unavailable": []
+      },
+      {
+        "id": "LH102",
+        "name": "Lecture Hall 102",
+        "capacity": 78,
+        "room_type": "LECTURE",
+        "unavailable": [
+          5,
+          34
+        ]
+      },
+      {
+        "id": "LH103",
+        "name": "Lecture Hall 103",
+        "capacity": 75,
+        "room_type": "LECTURE",
+        "unavailable": []
+      },
+      {
+        "id": "LH104",
+        "name": "Lecture Hall 104",
+        "capacity": 75,
+        "room_type": "LECTURE",
+        "unavailable": [
+          21,
+          32
+        ]
+      },
+      {
+        "id": "LH105",
+        "name": "Lecture Hall 105",
+        "capacity": 72,
+        "room_type": "LECTURE",
+        "unavailable": [
+          1,
+          25,
+          33
+        ]
+      },
+      {
+        "id": "LH106",
+        "name": "Lecture Hall 106",
+        "capacity": 70,
+        "room_type": "LECTURE",
+        "unavailable": [
+          8,
+          11
+        ]
+      },
+      {
+        "id": "LH107",
+        "name": "Lecture Hall 107",
+        "capacity": 70,
+        "room_type": "LECTURE",
+        "unavailable": [
+          3,
+          15,
+          21
+        ]
+      },
+      {
+        "id": "LH108",
+        "name": "Lecture Hall 108",
+        "capacity": 68,
+        "room_type": "LECTURE",
+        "unavailable": [
+          17
+        ]
+      },
+      {
+        "id": "LH109",
+        "name": "Lecture Hall 109",
+        "capacity": 66,
+        "room_type": "LECTURE",
+        "unavailable": [
+          6,
+          29,
+          35
+        ]
+      },
+      {
+        "id": "LH110",
+        "name": "Lecture Hall 110",
+        "capacity": 64,
+        "room_type": "LECTURE",
+        "unavailable": [
+          32
+        ]
+      },
+      {
+        "id": "LH111",
+        "name": "Lecture Hall 111",
+        "capacity": 48,
+        "room_type": "LECTURE",
+        "unavailable": [
+          9,
+          19,
+          31
+        ]
+      },
+      {
+        "id": "LH112",
+        "name": "Lecture Hall 112",
+        "capacity": 45,
+        "room_type": "LECTURE",
+        "unavailable": [
+          25,
+          30
+        ]
+      },
+      {
+        "id": "LH113",
+        "name": "Lecture Hall 113",
+        "capacity": 42,
+        "room_type": "LECTURE",
+        "unavailable": [
+          6,
+          10,
+          16
+        ]
+      },
+      {
+        "id": "LH114",
+        "name": "Lecture Hall 114",
+        "capacity": 40,
+        "room_type": "LECTURE",
+        "unavailable": [
+          10
+        ]
+      },
+      {
+        "id": "CL1",
+        "name": "Computer Lab 1",
+        "capacity": 75,
+        "room_type": "LAB",
+        "unavailable": [
+          16
+        ]
+      },
+      {
+        "id": "CL2",
+        "name": "Computer Lab 2",
+        "capacity": 75,
+        "room_type": "LAB",
+        "unavailable": []
+      },
+      {
+        "id": "CL3",
+        "name": "Computer Lab 3",
+        "capacity": 72,
+        "room_type": "LAB",
+        "unavailable": [
+          13,
+          18,
+          21
+        ]
+      },
+      {
+        "id": "CL4",
+        "name": "Computer Lab 4",
+        "capacity": 72,
+        "room_type": "LAB",
+        "unavailable": []
+      },
+      {
+        "id": "CL5",
+        "name": "Computer Lab 5",
+        "capacity": 70,
+        "room_type": "LAB",
+        "unavailable": [
+          30
+        ]
+      },
+      {
+        "id": "CL6",
+        "name": "Computer Lab 6",
+        "capacity": 70,
+        "room_type": "LAB",
+        "unavailable": [
+          9,
+          23
+        ]
+      }
+    ],
+    "faculty": [
+      {
+        "id": "F01",
+        "name": "Prof. Mehta",
+        "unavailable": [
+          3,
+          5,
+          10,
+          29
+        ],
+        "max_daily_load": 5,
+        "max_weekly_load": 18,
+        "max_consecutive": 3
+      },
+      {
+        "id": "F02",
+        "name": "Prof. Iyer",
+        "unavailable": [
+          3,
+          26
+        ],
+        "max_daily_load": 5,
+        "max_weekly_load": 18,
+        "max_consecutive": 3
+      },
+      {
+        "id": "F03",
+        "name": "Prof. Deshpande",
+        "unavailable": [
+          2,
+          6,
+          31
+        ],
+        "max_daily_load": 5,
+        "max_weekly_load": 18,
+        "max_consecutive": 3
+      },
+      {
+        "id": "F04",
+        "name": "Prof. Nair",
+        "unavailable": [
+          3,
+          5,
+          6,
+          17,
+          31
+        ],
+        "max_daily_load": 5,
+        "max_weekly_load": 18,
+        "max_consecutive": 3
+      },
+      {
+        "id": "F05",
+        "name": "Prof. Kulkarni",
+        "unavailable": [
+          3,
+          16
+        ],
+        "max_daily_load": 5,
+        "max_weekly_load": 18,
+        "max_consecutive": 3
+      },
+      {
+        "id": "F06",
+        "name": "Prof. Banerjee",
+        "unavailable": [
+          2,
+          3,
+          9,
+          16,
+          21
+        ],
+        "max_daily_load": 5,
+        "max_weekly_load": 18,
+        "max_consecutive": 3
+      },
+      {
+        "id": "F07",
+        "name": "Prof. Rao",
+        "unavailable": [
+          8,
+          10,
+          13,
+          22,
+          39
+        ],
+        "max_daily_load": 5,
+        "max_weekly_load": 18,
+        "max_consecutive": 3
+      },
+      {
+        "id": "F08",
+        "name": "Prof. Chatterjee",
+        "unavailable": [
+          14,
+          26
+        ],
+        "max_daily_load": 5,
+        "max_weekly_load": 18,
+        "max_consecutive": 3
+      },
+      {
+        "id": "F09",
+        "name": "Prof. Joshi",
+        "unavailable": [
+          3,
+          5
+        ],
+        "max_daily_load": 5,
+        "max_weekly_load": 18,
+        "max_consecutive": 3
+      },
+      {
+        "id": "F10",
+        "name": "Prof. Pillai",
+        "unavailable": [
+          31,
+          35,
+          39
+        ],
+        "max_daily_load": 5,
+        "max_weekly_load": 18,
+        "max_consecutive": 3
+      },
+      {
+        "id": "F11",
+        "name": "Prof. Sharma",
+        "unavailable": [
+          17,
+          22,
+          26,
+          33
+        ],
+        "max_daily_load": 5,
+        "max_weekly_load": 18,
+        "max_consecutive": 3
+      },
+      {
+        "id": "F12",
+        "name": "Prof. Gokhale",
+        "unavailable": [
+          6,
+          17,
+          22
+        ],
+        "max_daily_load": 5,
+        "max_weekly_load": 18,
+        "max_consecutive": 3
+      },
+      {
+        "id": "F13",
+        "name": "Prof. Fernandes",
+        "unavailable": [
+          5,
+          8,
+          21,
+          24,
+          32
+        ],
+        "max_daily_load": 5,
+        "max_weekly_load": 18,
+        "max_consecutive": 3
+      },
+      {
+        "id": "F14",
+        "name": "Prof. Bhatt",
+        "unavailable": [
+          10,
+          11,
+          24,
+          30,
+          35
+        ],
+        "max_daily_load": 5,
+        "max_weekly_load": 18,
+        "max_consecutive": 3
+      },
+      {
+        "id": "F15",
+        "name": "Prof. Reddy",
+        "unavailable": [
+          5,
+          23
+        ],
+        "max_daily_load": 5,
+        "max_weekly_load": 18,
+        "max_consecutive": 3
+      },
+      {
+        "id": "F16",
+        "name": "Prof. Sengupta",
+        "unavailable": [
+          5,
+          25,
+          33,
+          35
+        ],
+        "max_daily_load": 5,
+        "max_weekly_load": 18,
+        "max_consecutive": 3
+      }
+    ],
+    "batches": [
+      {
+        "id": "SE-A",
+        "name": "Second Year - Div A",
+        "strength": 62
+      },
+      {
+        "id": "SE-B",
+        "name": "Second Year - Div B",
+        "strength": 68
+      },
+      {
+        "id": "TE-A",
+        "name": "Third Year - Div A",
+        "strength": 58
+      },
+      {
+        "id": "TE-B",
+        "name": "Third Year - Div B",
+        "strength": 70
+      },
+      {
+        "id": "BE-A",
+        "name": "Final Year - Div A",
+        "strength": 65
+      },
+      {
+        "id": "BE-B",
+        "name": "Final Year - Div B",
+        "strength": 60
+      }
+    ],
+    "sessions": [
+      {
+        "id": "SE-A-CS301-1",
+        "subject_code": "CS301",
+        "subject_name": "Data Structures & Algorithms",
+        "batch_id": "SE-A",
+        "faculty_id": "F01",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "SE-A-CS301-2",
+        "subject_code": "CS301",
+        "subject_name": "Data Structures & Algorithms",
+        "batch_id": "SE-A",
+        "faculty_id": "F01",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "SE-A-CS301-3",
+        "subject_code": "CS301",
+        "subject_name": "Data Structures & Algorithms",
+        "batch_id": "SE-A",
+        "faculty_id": "F01",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "SE-A-CS302-1",
+        "subject_code": "CS302",
+        "subject_name": "Database Management Systems",
+        "batch_id": "SE-A",
+        "faculty_id": "F02",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "SE-A-CS302-2",
+        "subject_code": "CS302",
+        "subject_name": "Database Management Systems",
+        "batch_id": "SE-A",
+        "faculty_id": "F02",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "SE-A-CS302-3",
+        "subject_code": "CS302",
+        "subject_name": "Database Management Systems",
+        "batch_id": "SE-A",
+        "faculty_id": "F02",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "SE-A-CS303-1",
+        "subject_code": "CS303",
+        "subject_name": "Operating Systems",
+        "batch_id": "SE-A",
+        "faculty_id": "F03",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "SE-A-CS303-2",
+        "subject_code": "CS303",
+        "subject_name": "Operating Systems",
+        "batch_id": "SE-A",
+        "faculty_id": "F03",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "SE-A-CS303-3",
+        "subject_code": "CS303",
+        "subject_name": "Operating Systems",
+        "batch_id": "SE-A",
+        "faculty_id": "F03",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "SE-A-CS304-1",
+        "subject_code": "CS304",
+        "subject_name": "Computer Networks",
+        "batch_id": "SE-A",
+        "faculty_id": "F04",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "SE-A-CS304-2",
+        "subject_code": "CS304",
+        "subject_name": "Computer Networks",
+        "batch_id": "SE-A",
+        "faculty_id": "F04",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "SE-A-CS304-3",
+        "subject_code": "CS304",
+        "subject_name": "Computer Networks",
+        "batch_id": "SE-A",
+        "faculty_id": "F04",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "SE-A-CS305-1",
+        "subject_code": "CS305",
+        "subject_name": "Software Engineering",
+        "batch_id": "SE-A",
+        "faculty_id": "F05",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "SE-A-CS305-2",
+        "subject_code": "CS305",
+        "subject_name": "Software Engineering",
+        "batch_id": "SE-A",
+        "faculty_id": "F05",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "SE-A-CS305-3",
+        "subject_code": "CS305",
+        "subject_name": "Software Engineering",
+        "batch_id": "SE-A",
+        "faculty_id": "F05",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "SE-A-CS306-1",
+        "subject_code": "CS306",
+        "subject_name": "Theory of Computation",
+        "batch_id": "SE-A",
+        "faculty_id": "F06",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "SE-A-CS306-2",
+        "subject_code": "CS306",
+        "subject_name": "Theory of Computation",
+        "batch_id": "SE-A",
+        "faculty_id": "F06",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "SE-A-CS306-3",
+        "subject_code": "CS306",
+        "subject_name": "Theory of Computation",
+        "batch_id": "SE-A",
+        "faculty_id": "F06",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "SE-A-CS351-1",
+        "subject_code": "CS351",
+        "subject_name": "Data Structures Lab",
+        "batch_id": "SE-A",
+        "faculty_id": "F07",
+        "duration": 2,
+        "room_type": "LAB",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "SE-A-CS352-1",
+        "subject_code": "CS352",
+        "subject_name": "DBMS Lab",
+        "batch_id": "SE-A",
+        "faculty_id": "F08",
+        "duration": 2,
+        "room_type": "LAB",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "SE-A-CS401-1",
+        "subject_code": "CS401",
+        "subject_name": "Cloud Computing",
+        "batch_id": "SE-A",
+        "faculty_id": "F09",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": "SE-A-ELECTIVE-1-1",
+        "headcount": 31
+      },
+      {
+        "id": "SE-A-CS401-2",
+        "subject_code": "CS401",
+        "subject_name": "Cloud Computing",
+        "batch_id": "SE-A",
+        "faculty_id": "F09",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": "SE-A-ELECTIVE-1-2",
+        "headcount": 31
+      },
+      {
+        "id": "SE-A-CS401-3",
+        "subject_code": "CS401",
+        "subject_name": "Cloud Computing",
+        "batch_id": "SE-A",
+        "faculty_id": "F09",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": "SE-A-ELECTIVE-1-3",
+        "headcount": 31
+      },
+      {
+        "id": "SE-A-CS402-1",
+        "subject_code": "CS402",
+        "subject_name": "Cyber Security",
+        "batch_id": "SE-A",
+        "faculty_id": "F10",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": "SE-A-ELECTIVE-1-1",
+        "headcount": 31
+      },
+      {
+        "id": "SE-A-CS402-2",
+        "subject_code": "CS402",
+        "subject_name": "Cyber Security",
+        "batch_id": "SE-A",
+        "faculty_id": "F10",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": "SE-A-ELECTIVE-1-2",
+        "headcount": 31
+      },
+      {
+        "id": "SE-A-CS402-3",
+        "subject_code": "CS402",
+        "subject_name": "Cyber Security",
+        "batch_id": "SE-A",
+        "faculty_id": "F10",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": "SE-A-ELECTIVE-1-3",
+        "headcount": 31
+      },
+      {
+        "id": "SE-B-CS307-1",
+        "subject_code": "CS307",
+        "subject_name": "Machine Learning",
+        "batch_id": "SE-B",
+        "faculty_id": "F11",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "SE-B-CS307-2",
+        "subject_code": "CS307",
+        "subject_name": "Machine Learning",
+        "batch_id": "SE-B",
+        "faculty_id": "F11",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "SE-B-CS307-3",
+        "subject_code": "CS307",
+        "subject_name": "Machine Learning",
+        "batch_id": "SE-B",
+        "faculty_id": "F11",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "SE-B-CS308-1",
+        "subject_code": "CS308",
+        "subject_name": "Compiler Design",
+        "batch_id": "SE-B",
+        "faculty_id": "F12",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "SE-B-CS308-2",
+        "subject_code": "CS308",
+        "subject_name": "Compiler Design",
+        "batch_id": "SE-B",
+        "faculty_id": "F12",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "SE-B-CS308-3",
+        "subject_code": "CS308",
+        "subject_name": "Compiler Design",
+        "batch_id": "SE-B",
+        "faculty_id": "F12",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "SE-B-CS309-1",
+        "subject_code": "CS309",
+        "subject_name": "Computer Architecture",
+        "batch_id": "SE-B",
+        "faculty_id": "F13",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "SE-B-CS309-2",
+        "subject_code": "CS309",
+        "subject_name": "Computer Architecture",
+        "batch_id": "SE-B",
+        "faculty_id": "F13",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "SE-B-CS309-3",
+        "subject_code": "CS309",
+        "subject_name": "Computer Architecture",
+        "batch_id": "SE-B",
+        "faculty_id": "F13",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "SE-B-CS310-1",
+        "subject_code": "CS310",
+        "subject_name": "Discrete Mathematics",
+        "batch_id": "SE-B",
+        "faculty_id": "F14",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "SE-B-CS310-2",
+        "subject_code": "CS310",
+        "subject_name": "Discrete Mathematics",
+        "batch_id": "SE-B",
+        "faculty_id": "F14",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "SE-B-CS310-3",
+        "subject_code": "CS310",
+        "subject_name": "Discrete Mathematics",
+        "batch_id": "SE-B",
+        "faculty_id": "F14",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "SE-B-CS311-1",
+        "subject_code": "CS311",
+        "subject_name": "Web Technologies",
+        "batch_id": "SE-B",
+        "faculty_id": "F15",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "SE-B-CS311-2",
+        "subject_code": "CS311",
+        "subject_name": "Web Technologies",
+        "batch_id": "SE-B",
+        "faculty_id": "F15",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "SE-B-CS311-3",
+        "subject_code": "CS311",
+        "subject_name": "Web Technologies",
+        "batch_id": "SE-B",
+        "faculty_id": "F15",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "SE-B-CS312-1",
+        "subject_code": "CS312",
+        "subject_name": "Artificial Intelligence",
+        "batch_id": "SE-B",
+        "faculty_id": "F16",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "SE-B-CS312-2",
+        "subject_code": "CS312",
+        "subject_name": "Artificial Intelligence",
+        "batch_id": "SE-B",
+        "faculty_id": "F16",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "SE-B-CS312-3",
+        "subject_code": "CS312",
+        "subject_name": "Artificial Intelligence",
+        "batch_id": "SE-B",
+        "faculty_id": "F16",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "SE-B-CS353-1",
+        "subject_code": "CS353",
+        "subject_name": "Operating Systems Lab",
+        "batch_id": "SE-B",
+        "faculty_id": "F07",
+        "duration": 2,
+        "room_type": "LAB",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "SE-B-CS354-1",
+        "subject_code": "CS354",
+        "subject_name": "Networks Lab",
+        "batch_id": "SE-B",
+        "faculty_id": "F08",
+        "duration": 2,
+        "room_type": "LAB",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "SE-B-CS403-1",
+        "subject_code": "CS403",
+        "subject_name": "Computer Vision",
+        "batch_id": "SE-B",
+        "faculty_id": "F01",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": "SE-B-ELECTIVE-1-1",
+        "headcount": 34
+      },
+      {
+        "id": "SE-B-CS403-2",
+        "subject_code": "CS403",
+        "subject_name": "Computer Vision",
+        "batch_id": "SE-B",
+        "faculty_id": "F01",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": "SE-B-ELECTIVE-1-2",
+        "headcount": 34
+      },
+      {
+        "id": "SE-B-CS403-3",
+        "subject_code": "CS403",
+        "subject_name": "Computer Vision",
+        "batch_id": "SE-B",
+        "faculty_id": "F01",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": "SE-B-ELECTIVE-1-3",
+        "headcount": 34
+      },
+      {
+        "id": "SE-B-CS404-1",
+        "subject_code": "CS404",
+        "subject_name": "Natural Language Processing",
+        "batch_id": "SE-B",
+        "faculty_id": "F02",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": "SE-B-ELECTIVE-1-1",
+        "headcount": 34
+      },
+      {
+        "id": "SE-B-CS404-2",
+        "subject_code": "CS404",
+        "subject_name": "Natural Language Processing",
+        "batch_id": "SE-B",
+        "faculty_id": "F02",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": "SE-B-ELECTIVE-1-2",
+        "headcount": 34
+      },
+      {
+        "id": "SE-B-CS404-3",
+        "subject_code": "CS404",
+        "subject_name": "Natural Language Processing",
+        "batch_id": "SE-B",
+        "faculty_id": "F02",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": "SE-B-ELECTIVE-1-3",
+        "headcount": 34
+      },
+      {
+        "id": "TE-A-CS301-1",
+        "subject_code": "CS301",
+        "subject_name": "Data Structures & Algorithms",
+        "batch_id": "TE-A",
+        "faculty_id": "F03",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "TE-A-CS301-2",
+        "subject_code": "CS301",
+        "subject_name": "Data Structures & Algorithms",
+        "batch_id": "TE-A",
+        "faculty_id": "F03",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "TE-A-CS301-3",
+        "subject_code": "CS301",
+        "subject_name": "Data Structures & Algorithms",
+        "batch_id": "TE-A",
+        "faculty_id": "F03",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "TE-A-CS302-1",
+        "subject_code": "CS302",
+        "subject_name": "Database Management Systems",
+        "batch_id": "TE-A",
+        "faculty_id": "F04",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "TE-A-CS302-2",
+        "subject_code": "CS302",
+        "subject_name": "Database Management Systems",
+        "batch_id": "TE-A",
+        "faculty_id": "F04",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "TE-A-CS302-3",
+        "subject_code": "CS302",
+        "subject_name": "Database Management Systems",
+        "batch_id": "TE-A",
+        "faculty_id": "F04",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "TE-A-CS303-1",
+        "subject_code": "CS303",
+        "subject_name": "Operating Systems",
+        "batch_id": "TE-A",
+        "faculty_id": "F05",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "TE-A-CS303-2",
+        "subject_code": "CS303",
+        "subject_name": "Operating Systems",
+        "batch_id": "TE-A",
+        "faculty_id": "F05",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "TE-A-CS303-3",
+        "subject_code": "CS303",
+        "subject_name": "Operating Systems",
+        "batch_id": "TE-A",
+        "faculty_id": "F05",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "TE-A-CS304-1",
+        "subject_code": "CS304",
+        "subject_name": "Computer Networks",
+        "batch_id": "TE-A",
+        "faculty_id": "F06",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "TE-A-CS304-2",
+        "subject_code": "CS304",
+        "subject_name": "Computer Networks",
+        "batch_id": "TE-A",
+        "faculty_id": "F06",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "TE-A-CS304-3",
+        "subject_code": "CS304",
+        "subject_name": "Computer Networks",
+        "batch_id": "TE-A",
+        "faculty_id": "F06",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "TE-A-CS305-1",
+        "subject_code": "CS305",
+        "subject_name": "Software Engineering",
+        "batch_id": "TE-A",
+        "faculty_id": "F09",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "TE-A-CS305-2",
+        "subject_code": "CS305",
+        "subject_name": "Software Engineering",
+        "batch_id": "TE-A",
+        "faculty_id": "F09",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "TE-A-CS305-3",
+        "subject_code": "CS305",
+        "subject_name": "Software Engineering",
+        "batch_id": "TE-A",
+        "faculty_id": "F09",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "TE-A-CS306-1",
+        "subject_code": "CS306",
+        "subject_name": "Theory of Computation",
+        "batch_id": "TE-A",
+        "faculty_id": "F10",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "TE-A-CS306-2",
+        "subject_code": "CS306",
+        "subject_name": "Theory of Computation",
+        "batch_id": "TE-A",
+        "faculty_id": "F10",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "TE-A-CS306-3",
+        "subject_code": "CS306",
+        "subject_name": "Theory of Computation",
+        "batch_id": "TE-A",
+        "faculty_id": "F10",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "TE-A-CS355-1",
+        "subject_code": "CS355",
+        "subject_name": "Machine Learning Lab",
+        "batch_id": "TE-A",
+        "faculty_id": "F11",
+        "duration": 2,
+        "room_type": "LAB",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "TE-A-CS356-1",
+        "subject_code": "CS356",
+        "subject_name": "Web Technologies Lab",
+        "batch_id": "TE-A",
+        "faculty_id": "F12",
+        "duration": 2,
+        "room_type": "LAB",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "TE-A-CS405-1",
+        "subject_code": "CS405",
+        "subject_name": "Blockchain Systems",
+        "batch_id": "TE-A",
+        "faculty_id": "F13",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": "TE-A-ELECTIVE-1-1",
+        "headcount": 29
+      },
+      {
+        "id": "TE-A-CS405-2",
+        "subject_code": "CS405",
+        "subject_name": "Blockchain Systems",
+        "batch_id": "TE-A",
+        "faculty_id": "F13",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": "TE-A-ELECTIVE-1-2",
+        "headcount": 29
+      },
+      {
+        "id": "TE-A-CS405-3",
+        "subject_code": "CS405",
+        "subject_name": "Blockchain Systems",
+        "batch_id": "TE-A",
+        "faculty_id": "F13",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": "TE-A-ELECTIVE-1-3",
+        "headcount": 29
+      },
+      {
+        "id": "TE-A-CS406-1",
+        "subject_code": "CS406",
+        "subject_name": "Internet of Things",
+        "batch_id": "TE-A",
+        "faculty_id": "F14",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": "TE-A-ELECTIVE-1-1",
+        "headcount": 29
+      },
+      {
+        "id": "TE-A-CS406-2",
+        "subject_code": "CS406",
+        "subject_name": "Internet of Things",
+        "batch_id": "TE-A",
+        "faculty_id": "F14",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": "TE-A-ELECTIVE-1-2",
+        "headcount": 29
+      },
+      {
+        "id": "TE-A-CS406-3",
+        "subject_code": "CS406",
+        "subject_name": "Internet of Things",
+        "batch_id": "TE-A",
+        "faculty_id": "F14",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": "TE-A-ELECTIVE-1-3",
+        "headcount": 29
+      },
+      {
+        "id": "TE-B-CS307-1",
+        "subject_code": "CS307",
+        "subject_name": "Machine Learning",
+        "batch_id": "TE-B",
+        "faculty_id": "F15",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "TE-B-CS307-2",
+        "subject_code": "CS307",
+        "subject_name": "Machine Learning",
+        "batch_id": "TE-B",
+        "faculty_id": "F15",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "TE-B-CS307-3",
+        "subject_code": "CS307",
+        "subject_name": "Machine Learning",
+        "batch_id": "TE-B",
+        "faculty_id": "F15",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "TE-B-CS308-1",
+        "subject_code": "CS308",
+        "subject_name": "Compiler Design",
+        "batch_id": "TE-B",
+        "faculty_id": "F16",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "TE-B-CS308-2",
+        "subject_code": "CS308",
+        "subject_name": "Compiler Design",
+        "batch_id": "TE-B",
+        "faculty_id": "F16",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "TE-B-CS308-3",
+        "subject_code": "CS308",
+        "subject_name": "Compiler Design",
+        "batch_id": "TE-B",
+        "faculty_id": "F16",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "TE-B-CS309-1",
+        "subject_code": "CS309",
+        "subject_name": "Computer Architecture",
+        "batch_id": "TE-B",
+        "faculty_id": "F07",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "TE-B-CS309-2",
+        "subject_code": "CS309",
+        "subject_name": "Computer Architecture",
+        "batch_id": "TE-B",
+        "faculty_id": "F07",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "TE-B-CS309-3",
+        "subject_code": "CS309",
+        "subject_name": "Computer Architecture",
+        "batch_id": "TE-B",
+        "faculty_id": "F07",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "TE-B-CS310-1",
+        "subject_code": "CS310",
+        "subject_name": "Discrete Mathematics",
+        "batch_id": "TE-B",
+        "faculty_id": "F08",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "TE-B-CS310-2",
+        "subject_code": "CS310",
+        "subject_name": "Discrete Mathematics",
+        "batch_id": "TE-B",
+        "faculty_id": "F08",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "TE-B-CS310-3",
+        "subject_code": "CS310",
+        "subject_name": "Discrete Mathematics",
+        "batch_id": "TE-B",
+        "faculty_id": "F08",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "TE-B-CS311-1",
+        "subject_code": "CS311",
+        "subject_name": "Web Technologies",
+        "batch_id": "TE-B",
+        "faculty_id": "F11",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "TE-B-CS311-2",
+        "subject_code": "CS311",
+        "subject_name": "Web Technologies",
+        "batch_id": "TE-B",
+        "faculty_id": "F11",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "TE-B-CS311-3",
+        "subject_code": "CS311",
+        "subject_name": "Web Technologies",
+        "batch_id": "TE-B",
+        "faculty_id": "F11",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "TE-B-CS312-1",
+        "subject_code": "CS312",
+        "subject_name": "Artificial Intelligence",
+        "batch_id": "TE-B",
+        "faculty_id": "F12",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "TE-B-CS312-2",
+        "subject_code": "CS312",
+        "subject_name": "Artificial Intelligence",
+        "batch_id": "TE-B",
+        "faculty_id": "F12",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "TE-B-CS312-3",
+        "subject_code": "CS312",
+        "subject_name": "Artificial Intelligence",
+        "batch_id": "TE-B",
+        "faculty_id": "F12",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "TE-B-CS351-1",
+        "subject_code": "CS351",
+        "subject_name": "Data Structures Lab",
+        "batch_id": "TE-B",
+        "faculty_id": "F01",
+        "duration": 2,
+        "room_type": "LAB",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "TE-B-CS352-1",
+        "subject_code": "CS352",
+        "subject_name": "DBMS Lab",
+        "batch_id": "TE-B",
+        "faculty_id": "F02",
+        "duration": 2,
+        "room_type": "LAB",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "TE-B-CS401-1",
+        "subject_code": "CS401",
+        "subject_name": "Cloud Computing",
+        "batch_id": "TE-B",
+        "faculty_id": "F03",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": "TE-B-ELECTIVE-1-1",
+        "headcount": 35
+      },
+      {
+        "id": "TE-B-CS401-2",
+        "subject_code": "CS401",
+        "subject_name": "Cloud Computing",
+        "batch_id": "TE-B",
+        "faculty_id": "F03",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": "TE-B-ELECTIVE-1-2",
+        "headcount": 35
+      },
+      {
+        "id": "TE-B-CS401-3",
+        "subject_code": "CS401",
+        "subject_name": "Cloud Computing",
+        "batch_id": "TE-B",
+        "faculty_id": "F03",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": "TE-B-ELECTIVE-1-3",
+        "headcount": 35
+      },
+      {
+        "id": "TE-B-CS402-1",
+        "subject_code": "CS402",
+        "subject_name": "Cyber Security",
+        "batch_id": "TE-B",
+        "faculty_id": "F04",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": "TE-B-ELECTIVE-1-1",
+        "headcount": 35
+      },
+      {
+        "id": "TE-B-CS402-2",
+        "subject_code": "CS402",
+        "subject_name": "Cyber Security",
+        "batch_id": "TE-B",
+        "faculty_id": "F04",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": "TE-B-ELECTIVE-1-2",
+        "headcount": 35
+      },
+      {
+        "id": "TE-B-CS402-3",
+        "subject_code": "CS402",
+        "subject_name": "Cyber Security",
+        "batch_id": "TE-B",
+        "faculty_id": "F04",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": "TE-B-ELECTIVE-1-3",
+        "headcount": 35
+      },
+      {
+        "id": "BE-A-CS301-1",
+        "subject_code": "CS301",
+        "subject_name": "Data Structures & Algorithms",
+        "batch_id": "BE-A",
+        "faculty_id": "F05",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "BE-A-CS301-2",
+        "subject_code": "CS301",
+        "subject_name": "Data Structures & Algorithms",
+        "batch_id": "BE-A",
+        "faculty_id": "F05",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "BE-A-CS301-3",
+        "subject_code": "CS301",
+        "subject_name": "Data Structures & Algorithms",
+        "batch_id": "BE-A",
+        "faculty_id": "F05",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "BE-A-CS302-1",
+        "subject_code": "CS302",
+        "subject_name": "Database Management Systems",
+        "batch_id": "BE-A",
+        "faculty_id": "F06",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "BE-A-CS302-2",
+        "subject_code": "CS302",
+        "subject_name": "Database Management Systems",
+        "batch_id": "BE-A",
+        "faculty_id": "F06",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "BE-A-CS302-3",
+        "subject_code": "CS302",
+        "subject_name": "Database Management Systems",
+        "batch_id": "BE-A",
+        "faculty_id": "F06",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "BE-A-CS303-1",
+        "subject_code": "CS303",
+        "subject_name": "Operating Systems",
+        "batch_id": "BE-A",
+        "faculty_id": "F09",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "BE-A-CS303-2",
+        "subject_code": "CS303",
+        "subject_name": "Operating Systems",
+        "batch_id": "BE-A",
+        "faculty_id": "F09",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "BE-A-CS303-3",
+        "subject_code": "CS303",
+        "subject_name": "Operating Systems",
+        "batch_id": "BE-A",
+        "faculty_id": "F09",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "BE-A-CS304-1",
+        "subject_code": "CS304",
+        "subject_name": "Computer Networks",
+        "batch_id": "BE-A",
+        "faculty_id": "F10",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "BE-A-CS304-2",
+        "subject_code": "CS304",
+        "subject_name": "Computer Networks",
+        "batch_id": "BE-A",
+        "faculty_id": "F10",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "BE-A-CS304-3",
+        "subject_code": "CS304",
+        "subject_name": "Computer Networks",
+        "batch_id": "BE-A",
+        "faculty_id": "F10",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "BE-A-CS305-1",
+        "subject_code": "CS305",
+        "subject_name": "Software Engineering",
+        "batch_id": "BE-A",
+        "faculty_id": "F13",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "BE-A-CS305-2",
+        "subject_code": "CS305",
+        "subject_name": "Software Engineering",
+        "batch_id": "BE-A",
+        "faculty_id": "F13",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "BE-A-CS305-3",
+        "subject_code": "CS305",
+        "subject_name": "Software Engineering",
+        "batch_id": "BE-A",
+        "faculty_id": "F13",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "BE-A-CS306-1",
+        "subject_code": "CS306",
+        "subject_name": "Theory of Computation",
+        "batch_id": "BE-A",
+        "faculty_id": "F14",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "BE-A-CS306-2",
+        "subject_code": "CS306",
+        "subject_name": "Theory of Computation",
+        "batch_id": "BE-A",
+        "faculty_id": "F14",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "BE-A-CS306-3",
+        "subject_code": "CS306",
+        "subject_name": "Theory of Computation",
+        "batch_id": "BE-A",
+        "faculty_id": "F14",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "BE-A-CS353-1",
+        "subject_code": "CS353",
+        "subject_name": "Operating Systems Lab",
+        "batch_id": "BE-A",
+        "faculty_id": "F15",
+        "duration": 2,
+        "room_type": "LAB",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "BE-A-CS354-1",
+        "subject_code": "CS354",
+        "subject_name": "Networks Lab",
+        "batch_id": "BE-A",
+        "faculty_id": "F16",
+        "duration": 2,
+        "room_type": "LAB",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "BE-A-CS403-1",
+        "subject_code": "CS403",
+        "subject_name": "Computer Vision",
+        "batch_id": "BE-A",
+        "faculty_id": "F07",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": "BE-A-ELECTIVE-1-1",
+        "headcount": 33
+      },
+      {
+        "id": "BE-A-CS403-2",
+        "subject_code": "CS403",
+        "subject_name": "Computer Vision",
+        "batch_id": "BE-A",
+        "faculty_id": "F07",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": "BE-A-ELECTIVE-1-2",
+        "headcount": 33
+      },
+      {
+        "id": "BE-A-CS403-3",
+        "subject_code": "CS403",
+        "subject_name": "Computer Vision",
+        "batch_id": "BE-A",
+        "faculty_id": "F07",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": "BE-A-ELECTIVE-1-3",
+        "headcount": 33
+      },
+      {
+        "id": "BE-A-CS404-1",
+        "subject_code": "CS404",
+        "subject_name": "Natural Language Processing",
+        "batch_id": "BE-A",
+        "faculty_id": "F08",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": "BE-A-ELECTIVE-1-1",
+        "headcount": 33
+      },
+      {
+        "id": "BE-A-CS404-2",
+        "subject_code": "CS404",
+        "subject_name": "Natural Language Processing",
+        "batch_id": "BE-A",
+        "faculty_id": "F08",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": "BE-A-ELECTIVE-1-2",
+        "headcount": 33
+      },
+      {
+        "id": "BE-A-CS404-3",
+        "subject_code": "CS404",
+        "subject_name": "Natural Language Processing",
+        "batch_id": "BE-A",
+        "faculty_id": "F08",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": "BE-A-ELECTIVE-1-3",
+        "headcount": 33
+      },
+      {
+        "id": "BE-B-CS307-1",
+        "subject_code": "CS307",
+        "subject_name": "Machine Learning",
+        "batch_id": "BE-B",
+        "faculty_id": "F01",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "BE-B-CS307-2",
+        "subject_code": "CS307",
+        "subject_name": "Machine Learning",
+        "batch_id": "BE-B",
+        "faculty_id": "F01",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "BE-B-CS307-3",
+        "subject_code": "CS307",
+        "subject_name": "Machine Learning",
+        "batch_id": "BE-B",
+        "faculty_id": "F01",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "BE-B-CS308-1",
+        "subject_code": "CS308",
+        "subject_name": "Compiler Design",
+        "batch_id": "BE-B",
+        "faculty_id": "F02",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "BE-B-CS308-2",
+        "subject_code": "CS308",
+        "subject_name": "Compiler Design",
+        "batch_id": "BE-B",
+        "faculty_id": "F02",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "BE-B-CS308-3",
+        "subject_code": "CS308",
+        "subject_name": "Compiler Design",
+        "batch_id": "BE-B",
+        "faculty_id": "F02",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "BE-B-CS309-1",
+        "subject_code": "CS309",
+        "subject_name": "Computer Architecture",
+        "batch_id": "BE-B",
+        "faculty_id": "F11",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "BE-B-CS309-2",
+        "subject_code": "CS309",
+        "subject_name": "Computer Architecture",
+        "batch_id": "BE-B",
+        "faculty_id": "F11",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "BE-B-CS309-3",
+        "subject_code": "CS309",
+        "subject_name": "Computer Architecture",
+        "batch_id": "BE-B",
+        "faculty_id": "F11",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "BE-B-CS310-1",
+        "subject_code": "CS310",
+        "subject_name": "Discrete Mathematics",
+        "batch_id": "BE-B",
+        "faculty_id": "F12",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "BE-B-CS310-2",
+        "subject_code": "CS310",
+        "subject_name": "Discrete Mathematics",
+        "batch_id": "BE-B",
+        "faculty_id": "F12",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "BE-B-CS310-3",
+        "subject_code": "CS310",
+        "subject_name": "Discrete Mathematics",
+        "batch_id": "BE-B",
+        "faculty_id": "F12",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "BE-B-CS311-1",
+        "subject_code": "CS311",
+        "subject_name": "Web Technologies",
+        "batch_id": "BE-B",
+        "faculty_id": "F15",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "BE-B-CS311-2",
+        "subject_code": "CS311",
+        "subject_name": "Web Technologies",
+        "batch_id": "BE-B",
+        "faculty_id": "F15",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "BE-B-CS311-3",
+        "subject_code": "CS311",
+        "subject_name": "Web Technologies",
+        "batch_id": "BE-B",
+        "faculty_id": "F15",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "BE-B-CS312-1",
+        "subject_code": "CS312",
+        "subject_name": "Artificial Intelligence",
+        "batch_id": "BE-B",
+        "faculty_id": "F16",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "BE-B-CS312-2",
+        "subject_code": "CS312",
+        "subject_name": "Artificial Intelligence",
+        "batch_id": "BE-B",
+        "faculty_id": "F16",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "BE-B-CS312-3",
+        "subject_code": "CS312",
+        "subject_name": "Artificial Intelligence",
+        "batch_id": "BE-B",
+        "faculty_id": "F16",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "BE-B-CS355-1",
+        "subject_code": "CS355",
+        "subject_name": "Machine Learning Lab",
+        "batch_id": "BE-B",
+        "faculty_id": "F03",
+        "duration": 2,
+        "room_type": "LAB",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "BE-B-CS356-1",
+        "subject_code": "CS356",
+        "subject_name": "Web Technologies Lab",
+        "batch_id": "BE-B",
+        "faculty_id": "F04",
+        "duration": 2,
+        "room_type": "LAB",
+        "elective_group": null,
+        "headcount": null
+      },
+      {
+        "id": "BE-B-CS405-1",
+        "subject_code": "CS405",
+        "subject_name": "Blockchain Systems",
+        "batch_id": "BE-B",
+        "faculty_id": "F05",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": "BE-B-ELECTIVE-1-1",
+        "headcount": 30
+      },
+      {
+        "id": "BE-B-CS405-2",
+        "subject_code": "CS405",
+        "subject_name": "Blockchain Systems",
+        "batch_id": "BE-B",
+        "faculty_id": "F05",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": "BE-B-ELECTIVE-1-2",
+        "headcount": 30
+      },
+      {
+        "id": "BE-B-CS405-3",
+        "subject_code": "CS405",
+        "subject_name": "Blockchain Systems",
+        "batch_id": "BE-B",
+        "faculty_id": "F05",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": "BE-B-ELECTIVE-1-3",
+        "headcount": 30
+      },
+      {
+        "id": "BE-B-CS406-1",
+        "subject_code": "CS406",
+        "subject_name": "Internet of Things",
+        "batch_id": "BE-B",
+        "faculty_id": "F06",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": "BE-B-ELECTIVE-1-1",
+        "headcount": 30
+      },
+      {
+        "id": "BE-B-CS406-2",
+        "subject_code": "CS406",
+        "subject_name": "Internet of Things",
+        "batch_id": "BE-B",
+        "faculty_id": "F06",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": "BE-B-ELECTIVE-1-2",
+        "headcount": 30
+      },
+      {
+        "id": "BE-B-CS406-3",
+        "subject_code": "CS406",
+        "subject_name": "Internet of Things",
+        "batch_id": "BE-B",
+        "faculty_id": "F06",
+        "duration": 1,
+        "room_type": "LECTURE",
+        "elective_group": "BE-B-ELECTIVE-1-3",
+        "headcount": 30
+      }
+    ]
+  },
+  "timetable": {
+    "status": "FEASIBLE",
+    "objective": 156.0,
+    "best_bound": 60.0,
+    "solve_seconds": 20.208596399985254,
+    "placements": [
+      {
+        "session_id": "BE-A-CS301-1",
+        "timeslot_id": 35,
+        "room_id": "LH106"
+      },
+      {
+        "session_id": "BE-A-CS301-2",
+        "timeslot_id": 9,
+        "room_id": "LH106"
+      },
+      {
+        "session_id": "BE-A-CS301-3",
+        "timeslot_id": 1,
+        "room_id": "LH106"
+      },
+      {
+        "session_id": "BE-A-CS302-1",
+        "timeslot_id": 33,
+        "room_id": "LH106"
+      },
+      {
+        "session_id": "BE-A-CS302-2",
+        "timeslot_id": 19,
+        "room_id": "LH106"
+      },
+      {
+        "session_id": "BE-A-CS302-3",
+        "timeslot_id": 13,
+        "room_id": "LH106"
+      },
+      {
+        "session_id": "BE-A-CS303-1",
+        "timeslot_id": 26,
+        "room_id": "LH106"
+      },
+      {
+        "session_id": "BE-A-CS303-2",
+        "timeslot_id": 16,
+        "room_id": "LH106"
+      },
+      {
+        "session_id": "BE-A-CS303-3",
+        "timeslot_id": 10,
+        "room_id": "LH106"
+      },
+      {
+        "session_id": "BE-A-CS304-1",
+        "timeslot_id": 23,
+        "room_id": "LH106"
+      },
+      {
+        "session_id": "BE-A-CS304-2",
+        "timeslot_id": 8,
+        "room_id": "LH108"
+      },
+      {
+        "session_id": "BE-A-CS304-3",
+        "timeslot_id": 3,
+        "room_id": "LH106"
+      },
+      {
+        "session_id": "BE-A-CS305-1",
+        "timeslot_id": 0,
+        "room_id": "LH106"
+      },
+      {
+        "session_id": "BE-A-CS305-2",
+        "timeslot_id": 34,
+        "room_id": "LH106"
+      },
+      {
+        "session_id": "BE-A-CS305-3",
+        "timeslot_id": 17,
+        "room_id": "LH106"
+      },
+      {
+        "session_id": "BE-A-CS306-1",
+        "timeslot_id": 18,
+        "room_id": "LH106"
+      },
+      {
+        "session_id": "BE-A-CS306-2",
+        "timeslot_id": 27,
+        "room_id": "LH106"
+      },
+      {
+        "session_id": "BE-A-CS306-3",
+        "timeslot_id": 14,
+        "room_id": "LH106"
+      },
+      {
+        "session_id": "BE-A-CS353-1",
+        "timeslot_id": 24,
+        "room_id": "CL5"
+      },
+      {
+        "session_id": "BE-A-CS354-1",
+        "timeslot_id": 21,
+        "room_id": "CL6"
+      },
+      {
+        "session_id": "BE-A-CS403-1",
+        "timeslot_id": 2,
+        "room_id": "LH112"
+      },
+      {
+        "session_id": "BE-A-CS403-2",
+        "timeslot_id": 11,
+        "room_id": "LH114"
+      },
+      {
+        "session_id": "BE-A-CS403-3",
+        "timeslot_id": 32,
+        "room_id": "LH112"
+      },
+      {
+        "session_id": "BE-A-CS404-1",
+        "timeslot_id": 2,
+        "room_id": "LH113"
+      },
+      {
+        "session_id": "BE-A-CS404-2",
+        "timeslot_id": 11,
+        "room_id": "LH112"
+      },
+      {
+        "session_id": "BE-A-CS404-3",
+        "timeslot_id": 32,
+        "room_id": "LH113"
+      },
+      {
+        "session_id": "BE-B-CS307-1",
+        "timeslot_id": 0,
+        "room_id": "LH110"
+      },
+      {
+        "session_id": "BE-B-CS307-2",
+        "timeslot_id": 13,
+        "room_id": "LH109"
+      },
+      {
+        "session_id": "BE-B-CS307-3",
+        "timeslot_id": 35,
+        "room_id": "LH110"
+      },
+      {
+        "session_id": "BE-B-CS308-1",
+        "timeslot_id": 27,
+        "room_id": "LH110"
+      },
+      {
+        "session_id": "BE-B-CS308-2",
+        "timeslot_id": 34,
+        "room_id": "LH109"
+      },
+      {
+        "session_id": "BE-B-CS308-3",
+        "timeslot_id": 11,
+        "room_id": "LH109"
+      },
+      {
+        "session_id": "BE-B-CS309-1",
+        "timeslot_id": 3,
+        "room_id": "LH109"
+      },
+      {
+        "session_id": "BE-B-CS309-2",
+        "timeslot_id": 8,
+        "room_id": "LH110"
+      },
+      {
+        "session_id": "BE-B-CS309-3",
+        "timeslot_id": 19,
+        "room_id": "LH108"
+      },
+      {
+        "session_id": "BE-B-CS310-1",
+        "timeslot_id": 10,
+        "room_id": "LH109"
+      },
+      {
+        "session_id": "BE-B-CS310-2",
+        "timeslot_id": 33,
+        "room_id": "LH108"
+      },
+      {
+        "session_id": "BE-B-CS310-3",
+        "timeslot_id": 18,
+        "room_id": "LH110"
+      },
+      {
+        "session_id": "BE-B-CS311-1",
+        "timeslot_id": 16,
+        "room_id": "LH108"
+      },
+      {
+        "session_id": "BE-B-CS311-2",
+        "timeslot_id": 9,
+        "room_id": "LH108"
+      },
+      {
+        "session_id": "BE-B-CS311-3",
+        "timeslot_id": 37,
+        "room_id": "LH108"
+      },
+      {
+        "session_id": "BE-B-CS312-1",
+        "timeslot_id": 15,
+        "room_id": "LH108"
+      },
+      {
+        "session_id": "BE-B-CS312-2",
+        "timeslot_id": 39,
+        "room_id": "LH110"
+      },
+      {
+        "session_id": "BE-B-CS312-3",
+        "timeslot_id": 14,
+        "room_id": "LH110"
+      },
+      {
+        "session_id": "BE-B-CS355-1",
+        "timeslot_id": 24,
+        "room_id": "CL3"
+      },
+      {
+        "session_id": "BE-B-CS356-1",
+        "timeslot_id": 1,
+        "room_id": "CL5"
+      },
+      {
+        "session_id": "BE-B-CS405-1",
+        "timeslot_id": 17,
+        "room_id": "LH114"
+      },
+      {
+        "session_id": "BE-B-CS405-2",
+        "timeslot_id": 26,
+        "room_id": "LH114"
+      },
+      {
+        "session_id": "BE-B-CS405-3",
+        "timeslot_id": 38,
+        "room_id": "LH113"
+      },
+      {
+        "session_id": "BE-B-CS406-1",
+        "timeslot_id": 17,
+        "room_id": "LH112"
+      },
+      {
+        "session_id": "BE-B-CS406-2",
+        "timeslot_id": 26,
+        "room_id": "LH112"
+      },
+      {
+        "session_id": "BE-B-CS406-3",
+        "timeslot_id": 38,
+        "room_id": "LH112"
+      },
+      {
+        "session_id": "SE-A-CS301-1",
+        "timeslot_id": 21,
+        "room_id": "LH108"
+      },
+      {
+        "session_id": "SE-A-CS301-2",
+        "timeslot_id": 2,
+        "room_id": "LH108"
+      },
+      {
+        "session_id": "SE-A-CS301-3",
+        "timeslot_id": 14,
+        "room_id": "LH109"
+      },
+      {
+        "session_id": "SE-A-CS302-1",
+        "timeslot_id": 29,
+        "room_id": "LH108"
+      },
+      {
+        "session_id": "SE-A-CS302-2",
+        "timeslot_id": 10,
+        "room_id": "LH108"
+      },
+      {
+        "session_id": "SE-A-CS302-3",
+        "timeslot_id": 35,
+        "room_id": "LH108"
+      },
+      {
+        "session_id": "SE-A-CS303-1",
+        "timeslot_id": 3,
+        "room_id": "LH110"
+      },
+      {
+        "session_id": "SE-A-CS303-2",
+        "timeslot_id": 33,
+        "room_id": "LH110"
+      },
+      {
+        "session_id": "SE-A-CS303-3",
+        "timeslot_id": 13,
+        "room_id": "LH110"
+      },
+      {
+        "session_id": "SE-A-CS304-1",
+        "timeslot_id": 26,
+        "room_id": "LH110"
+      },
+      {
+        "session_id": "SE-A-CS304-2",
+        "timeslot_id": 32,
+        "room_id": "LH108"
+      },
+      {
+        "session_id": "SE-A-CS304-3",
+        "timeslot_id": 15,
+        "room_id": "LH110"
+      },
+      {
+        "session_id": "SE-A-CS305-1",
+        "timeslot_id": 8,
+        "room_id": "LH109"
+      },
+      {
+        "session_id": "SE-A-CS305-2",
+        "timeslot_id": 22,
+        "room_id": "LH109"
+      },
+      {
+        "session_id": "SE-A-CS305-3",
+        "timeslot_id": 27,
+        "room_id": "LH108"
+      },
+      {
+        "session_id": "SE-A-CS306-1",
+        "timeslot_id": 11,
+        "room_id": "LH108"
+      },
+      {
+        "session_id": "SE-A-CS306-2",
+        "timeslot_id": 5,
+        "room_id": "LH108"
+      },
+      {
+        "session_id": "SE-A-CS306-3",
+        "timeslot_id": 34,
+        "room_id": "LH108"
+      },
+      {
+        "session_id": "SE-A-CS351-1",
+        "timeslot_id": 0,
+        "room_id": "CL3"
+      },
+      {
+        "session_id": "SE-A-CS352-1",
+        "timeslot_id": 30,
+        "room_id": "CL6"
+      },
+      {
+        "session_id": "SE-A-CS401-1",
+        "timeslot_id": 9,
+        "room_id": "LH113"
+      },
+      {
+        "session_id": "SE-A-CS401-2",
+        "timeslot_id": 25,
+        "room_id": "LH113"
+      },
+      {
+        "session_id": "SE-A-CS401-3",
+        "timeslot_id": 6,
+        "room_id": "LH112"
+      },
+      {
+        "session_id": "SE-A-CS402-1",
+        "timeslot_id": 9,
+        "room_id": "LH114"
+      },
+      {
+        "session_id": "SE-A-CS402-2",
+        "timeslot_id": 25,
+        "room_id": "LH114"
+      },
+      {
+        "session_id": "SE-A-CS402-3",
+        "timeslot_id": 6,
+        "room_id": "LH114"
+      },
+      {
+        "session_id": "SE-B-CS307-1",
+        "timeslot_id": 10,
+        "room_id": "LH107"
+      },
+      {
+        "session_id": "SE-B-CS307-2",
+        "timeslot_id": 2,
+        "room_id": "LH107"
+      },
+      {
+        "session_id": "SE-B-CS307-3",
+        "timeslot_id": 18,
+        "room_id": "LH107"
+      },
+      {
+        "session_id": "SE-B-CS308-1",
+        "timeslot_id": 19,
+        "room_id": "LH107"
+      },
+      {
+        "session_id": "SE-B-CS308-2",
+        "timeslot_id": 24,
+        "room_id": "LH107"
+      },
+      {
+        "session_id": "SE-B-CS308-3",
+        "timeslot_id": 9,
+        "room_id": "LH107"
+      },
+      {
+        "session_id": "SE-B-CS309-1",
+        "timeslot_id": 35,
+        "room_id": "LH107"
+      },
+      {
+        "session_id": "SE-B-CS309-2",
+        "timeslot_id": 16,
+        "room_id": "LH107"
+      },
+      {
+        "session_id": "SE-B-CS309-3",
+        "timeslot_id": 29,
+        "room_id": "LH107"
+      },
+      {
+        "session_id": "SE-B-CS310-1",
+        "timeslot_id": 21,
+        "room_id": "LH106"
+      },
+      {
+        "session_id": "SE-B-CS310-2",
+        "timeslot_id": 0,
+        "room_id": "LH107"
+      },
+      {
+        "session_id": "SE-B-CS310-3",
+        "timeslot_id": 32,
+        "room_id": "LH107"
+      },
+      {
+        "session_id": "SE-B-CS311-1",
+        "timeslot_id": 17,
+        "room_id": "LH107"
+      },
+      {
+        "session_id": "SE-B-CS311-2",
+        "timeslot_id": 39,
+        "room_id": "LH107"
+      },
+      {
+        "session_id": "SE-B-CS311-3",
+        "timeslot_id": 8,
+        "room_id": "LH107"
+      },
+      {
+        "session_id": "SE-B-CS312-1",
+        "timeslot_id": 1,
+        "room_id": "LH107"
+      },
+      {
+        "session_id": "SE-B-CS312-2",
+        "timeslot_id": 27,
+        "room_id": "LH107"
+      },
+      {
+        "session_id": "SE-B-CS312-3",
+        "timeslot_id": 38,
+        "room_id": "LH107"
+      },
+      {
+        "session_id": "SE-B-CS353-1",
+        "timeslot_id": 25,
+        "room_id": "CL6"
+      },
+      {
+        "session_id": "SE-B-CS354-1",
+        "timeslot_id": 33,
+        "room_id": "CL6"
+      },
+      {
+        "session_id": "SE-B-CS403-1",
+        "timeslot_id": 37,
+        "room_id": "LH114"
+      },
+      {
+        "session_id": "SE-B-CS403-2",
+        "timeslot_id": 30,
+        "room_id": "LH113"
+      },
+      {
+        "session_id": "SE-B-CS403-3",
+        "timeslot_id": 22,
+        "room_id": "LH112"
+      },
+      {
+        "session_id": "SE-B-CS404-1",
+        "timeslot_id": 37,
+        "room_id": "LH112"
+      },
+      {
+        "session_id": "SE-B-CS404-2",
+        "timeslot_id": 30,
+        "room_id": "LH114"
+      },
+      {
+        "session_id": "SE-B-CS404-3",
+        "timeslot_id": 22,
+        "room_id": "LH113"
+      },
+      {
+        "session_id": "TE-A-CS301-1",
+        "timeslot_id": 15,
+        "room_id": "LH109"
+      },
+      {
+        "session_id": "TE-A-CS301-2",
+        "timeslot_id": 17,
+        "room_id": "LH109"
+      },
+      {
+        "session_id": "TE-A-CS301-3",
+        "timeslot_id": 26,
+        "room_id": "LH109"
+      },
+      {
+        "session_id": "TE-A-CS302-1",
+        "timeslot_id": 27,
+        "room_id": "LH109"
+      },
+      {
+        "session_id": "TE-A-CS302-2",
+        "timeslot_id": 13,
+        "room_id": "LH108"
+      },
+      {
+        "session_id": "TE-A-CS302-3",
+        "timeslot_id": 0,
+        "room_id": "LH109"
+      },
+      {
+        "session_id": "TE-A-CS303-1",
+        "timeslot_id": 21,
+        "room_id": "LH110"
+      },
+      {
+        "session_id": "TE-A-CS303-2",
+        "timeslot_id": 25,
+        "room_id": "LH110"
+      },
+      {
+        "session_id": "TE-A-CS303-3",
+        "timeslot_id": 37,
+        "room_id": "LH109"
+      },
+      {
+        "session_id": "TE-A-CS304-1",
+        "timeslot_id": 18,
+        "room_id": "LH108"
+      },
+      {
+        "session_id": "TE-A-CS304-2",
+        "timeslot_id": 6,
+        "room_id": "LH108"
+      },
+      {
+        "session_id": "TE-A-CS304-3",
+        "timeslot_id": 14,
+        "room_id": "LH108"
+      },
+      {
+        "session_id": "TE-A-CS305-1",
+        "timeslot_id": 7,
+        "room_id": "LH108"
+      },
+      {
+        "session_id": "TE-A-CS305-2",
+        "timeslot_id": 24,
+        "room_id": "LH109"
+      },
+      {
+        "session_id": "TE-A-CS305-3",
+        "timeslot_id": 32,
+        "room_id": "LH109"
+      },
+      {
+        "session_id": "TE-A-CS306-1",
+        "timeslot_id": 38,
+        "room_id": "LH108"
+      },
+      {
+        "session_id": "TE-A-CS306-2",
+        "timeslot_id": 22,
+        "room_id": "LH108"
+      },
+      {
+        "session_id": "TE-A-CS306-3",
+        "timeslot_id": 5,
+        "room_id": "LH109"
+      },
+      {
+        "session_id": "TE-A-CS355-1",
+        "timeslot_id": 34,
+        "room_id": "CL3"
+      },
+      {
+        "session_id": "TE-A-CS356-1",
+        "timeslot_id": 2,
+        "room_id": "CL3"
+      },
+      {
+        "session_id": "TE-A-CS405-1",
+        "timeslot_id": 33,
+        "room_id": "LH112"
+      },
+      {
+        "session_id": "TE-A-CS405-2",
+        "timeslot_id": 19,
+        "room_id": "LH112"
+      },
+      {
+        "session_id": "TE-A-CS405-3",
+        "timeslot_id": 1,
+        "room_id": "LH113"
+      },
+      {
+        "session_id": "TE-A-CS406-1",
+        "timeslot_id": 33,
+        "room_id": "LH113"
+      },
+      {
+        "session_id": "TE-A-CS406-2",
+        "timeslot_id": 19,
+        "room_id": "LH113"
+      },
+      {
+        "session_id": "TE-A-CS406-3",
+        "timeslot_id": 1,
+        "room_id": "LH112"
+      },
+      {
+        "session_id": "TE-B-CS307-1",
+        "timeslot_id": 10,
+        "room_id": "LH105"
+      },
+      {
+        "session_id": "TE-B-CS307-2",
+        "timeslot_id": 6,
+        "room_id": "LH105"
+      },
+      {
+        "session_id": "TE-B-CS307-3",
+        "timeslot_id": 26,
+        "room_id": "LH105"
+      },
+      {
+        "session_id": "TE-B-CS308-1",
+        "timeslot_id": 13,
+        "room_id": "LH105"
+      },
+      {
+        "session_id": "TE-B-CS308-2",
+        "timeslot_id": 19,
+        "room_id": "LH105"
+      },
+      {
+        "session_id": "TE-B-CS308-3",
+        "timeslot_id": 2,
+        "room_id": "LH105"
+      },
+      {
+        "session_id": "TE-B-CS309-1",
+        "timeslot_id": 35,
+        "room_id": "LH105"
+      },
+      {
+        "session_id": "TE-B-CS309-2",
+        "timeslot_id": 33,
+        "room_id": "LH107"
+      },
+      {
+        "session_id": "TE-B-CS309-3",
+        "timeslot_id": 24,
+        "room_id": "LH105"
+      },
+      {
+        "session_id": "TE-B-CS310-1",
+        "timeslot_id": 3,
+        "room_id": "LH105"
+      },
+      {
+        "session_id": "TE-B-CS310-2",
+        "timeslot_id": 18,
+        "room_id": "LH105"
+      },
+      {
+        "session_id": "TE-B-CS310-3",
+        "timeslot_id": 17,
+        "room_id": "LH105"
+      },
+      {
+        "session_id": "TE-B-CS311-1",
+        "timeslot_id": 9,
+        "room_id": "LH105"
+      },
+      {
+        "session_id": "TE-B-CS311-2",
+        "timeslot_id": 5,
+        "room_id": "LH105"
+      },
+      {
+        "session_id": "TE-B-CS311-3",
+        "timeslot_id": 37,
+        "room_id": "LH105"
+      },
+      {
+        "session_id": "TE-B-CS312-1",
+        "timeslot_id": 32,
+        "room_id": "LH105"
+      },
+      {
+        "session_id": "TE-B-CS312-2",
+        "timeslot_id": 11,
+        "room_id": "LH105"
+      },
+      {
+        "session_id": "TE-B-CS312-3",
+        "timeslot_id": 25,
+        "room_id": "LH107"
+      },
+      {
+        "session_id": "TE-B-CS351-1",
+        "timeslot_id": 38,
+        "room_id": "CL3"
+      },
+      {
+        "session_id": "TE-B-CS352-1",
+        "timeslot_id": 0,
+        "room_id": "CL6"
+      },
+      {
+        "session_id": "TE-B-CS401-1",
+        "timeslot_id": 16,
+        "room_id": "LH112"
+      },
+      {
+        "session_id": "TE-B-CS401-2",
+        "timeslot_id": 14,
+        "room_id": "LH112"
+      },
+      {
+        "session_id": "TE-B-CS401-3",
+        "timeslot_id": 34,
+        "room_id": "LH112"
+      },
+      {
+        "session_id": "TE-B-CS402-1",
+        "timeslot_id": 16,
+        "room_id": "LH114"
+      },
+      {
+        "session_id": "TE-B-CS402-2",
+        "timeslot_id": 14,
+        "room_id": "LH113"
+      },
+      {
+        "session_id": "TE-B-CS402-3",
+        "timeslot_id": 34,
+        "room_id": "LH113"
+      }
+    ]
+  }
+}

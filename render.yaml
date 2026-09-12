@@ -1,0 +1,37 @@
+# One free web service plus one free PostgreSQL database: the API serves the
+# built UI from the same origin. Render reads this on first deploy.
+databases:
+  - name: chronosolve-db
+    plan: free
+    databaseName: chronosolve
+    user: chronosolve
+
+services:
+  - type: web
+    name: chronosolve
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/health
+    envVars:
+      # Migrations run on start and the rehearsed department is seeded once.
+      # Without this the app falls back to SQLite inside the container, which a
+      # free instance loses on every restart.
+      - key: DATABASE_URL
+        fromDatabase:
+          name: chronosolve-db
+          property: connectionString
+      # Sessions are cookies; mark them Secure now that the origin is HTTPS.
+      - key: CHRONOSOLVE_SECURE_COOKIES
+        value: "1"
+      # One-click demo sign-in. Set to 0 for a real deployment, which then
+      # needs accounts of its own.
+      - key: CHRONOSOLVE_DEMO_LOGIN
+        value: "1"
+      # A free instance has about one core, so keep the solver inside it.
+      - key: CHRONOSOLVE_WORKERS
+        value: "2"
+      - key: CHRONOSOLVE_GENERATE_SECONDS
+        value: "20"
+      - key: CHRONOSOLVE_REPAIR_SECONDS
+        value: "15"
